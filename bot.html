@@ -1,0 +1,10 @@
+<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+<script type="text/javascript">
+    if (hcaptcha.getResponse() == "success") {
+        window.location.href = "https://www.youtube.com/";
+
+        setTimeout(Redirect, 1000);
+    } else alert("You can't proceed!");
+</script>
+
+<div class="h-captcha" data-sitekey="4ef9e5e0-95e1-4f11-9506-336f1ed4e29d"></div>
